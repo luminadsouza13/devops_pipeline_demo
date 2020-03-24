@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-	git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+	git 'https://github.com/reeshu13489/devops_pipeline_demo.git'
 
         sh '''#!/bin/sh
 echo "********** Starting CI/CD Pipeline *********"
